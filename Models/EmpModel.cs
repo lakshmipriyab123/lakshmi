@@ -8,7 +8,7 @@ namespace CRUDUsingMVCwithAdoDotNet.Tests.Models
 {
     public class EmpModel
     {
-        //somethin
+        //something happen
         [Display(Name = "Id")]
         public int Empid { get; set; }
 
