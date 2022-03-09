@@ -8,7 +8,7 @@ namespace CRUDUsingMVCwithAdoDotNet.Tests.Models
 {
     public class EmpModel
     {
-        //something happen
+        //something happenening are you ok
         [Display(Name = "Id")]
         public int Empid { get; set; }
 
@@ -18,14 +18,12 @@ namespace CRUDUsingMVCwithAdoDotNet.Tests.Models
         [Required(ErrorMessage = "City is required.")]
         public string City { get; set; }
 
+
+
+
+
         [Required(ErrorMessage = "Address is required.")]
         public string Address { get; set; }
-
-
-
-
-
-
 
     }
 }
