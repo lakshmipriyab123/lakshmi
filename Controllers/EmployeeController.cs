@@ -11,7 +11,9 @@ namespace CRUDUsingMVCwithAdoDotNet.Tests.Controllers
         // GET: Employee
         public ActionResult Index()
         {
+		//return view for index
             return View();
         }
     }
+
 }
