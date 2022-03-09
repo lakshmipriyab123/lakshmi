@@ -8,6 +8,7 @@ namespace CRUDUsingMVCwithAdoDotNet.Tests.Models
 {
     public class EmpModel
     {
+        //somethin
         [Display(Name = "Id")]
         public int Empid { get; set; }
 
@@ -19,6 +20,8 @@ namespace CRUDUsingMVCwithAdoDotNet.Tests.Models
 
         [Required(ErrorMessage = "Address is required.")]
         public string Address { get; set; }
+
+
 
 
 
