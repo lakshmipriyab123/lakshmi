@@ -12,6 +12,7 @@ namespace CRUDUsingMVCwithAdoDotNet.Tests.Controllers
         public ActionResult Index()
         {
 		//return view for index
+
             return View();
         }
     }
